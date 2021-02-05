@@ -1,9 +1,9 @@
-package org.jetbrains.plugins.template.listeners
+package com.github.choo1992.atair.listeners
 
+import com.github.choo1992.atair.services.MyProjectService
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import org.jetbrains.plugins.template.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
